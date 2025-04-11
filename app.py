@@ -138,12 +138,12 @@ st.markdown("""
 col1, col2 = st.columns(2)
 
 with col1:
-    styled_audio_player("AFORE_RAP_a.mp3", "Versión A 🎧", "#3498DB")
+    styled_audio_player("PENSIONISSSTE_a.mp3", "Versión A 🎧", "#3498DB")
     st.image("https://cdn.pixabay.com/photo/2017/01/31/23/42/decorative-2028039_640.png", 
             use_container_width=True, caption="Ondas de audio - Versión A")
 
 with col2:
-    styled_audio_player("AFORE_RAP_b.mp3", "Versión B 🎶", "#9B59B6")
+    styled_audio_player("PENSIONISSSTE_b.mp3", "Versión B 🎶", "#9B59B6")
     st.image("https://cdn.pixabay.com/photo/2017/01/31/23/42/decorative-2028039_640.png", 
             use_container_width=True, caption="Ondas de audio - Versión B")
 
