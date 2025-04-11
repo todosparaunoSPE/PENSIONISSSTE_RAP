@@ -10,7 +10,7 @@ import base64
 
 # Configuración de la página
 st.set_page_config(
-    page_title="RAP PENSIONISSSTE",
+    page_title="RAP DEL RETIRO",
     page_icon="🎤",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -20,12 +20,9 @@ st.set_page_config(
 with st.sidebar:
     st.title("Créditos")
     st.markdown("---")
-    st.subheader("Autor de la letra")
     st.markdown("""
     **Javier Horacio Pérez Ricárdez**  
-    *Analista UEAP "B"*  
-    *Subdirección de Planeación Estratégica*
-    """)
+     """)
     st.markdown("---")
     #st.image("https://cdn.pixabay.com/photo/2017/01/31/15/33/avatar-2027360_640.png", 
     #         width=150, caption="Autor del RAP")
@@ -131,9 +128,9 @@ st.markdown("""
 # Encabezado con efecto
 st.markdown("""
 <div class="header">
-    <h1 style="color: white;"><span class="pulse-animation">🎤</span> RAP para AFORE PENSIONISSSTE</h1>
+    <h1 style="color: white;"><span class="pulse-animation">🎤</span> Las 10 AFORE - RAP del Retiro</h1>
     <p style="color: white; font-size: 1.2em;">Autor: Javier Horacio Pérez Ricárdez</p>
-    <p style="color: white; font-size: 1.2em;">¡Tu futuro en ritmo y rima!</p>
+    <p style="color: white; font-size: 1.2em;">¡Elige bien tu AFORE con ritmo!</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -141,12 +138,12 @@ st.markdown("""
 col1, col2 = st.columns(2)
 
 with col1:
-    styled_audio_player("PENSIONISSSTE_a.mp3", "Versión A 🎧", "#3498DB")
+    styled_audio_player("AFORE_RAP_a.mp3", "Versión A 🎧", "#3498DB")
     st.image("https://cdn.pixabay.com/photo/2017/01/31/23/42/decorative-2028039_640.png", 
             use_container_width=True, caption="Ondas de audio - Versión A")
 
 with col2:
-    styled_audio_player("PENSIONISSSTE_b.mp3", "Versión B 🎶", "#9B59B6")
+    styled_audio_player("AFORE_RAP_b.mp3", "Versión B 🎶", "#9B59B6")
     st.image("https://cdn.pixabay.com/photo/2017/01/31/23/42/decorative-2028039_640.png", 
             use_container_width=True, caption="Ondas de audio - Versión B")
 
@@ -157,48 +154,70 @@ tab1, tab2 = st.tabs(["📜 Letra Completa", "🎤 Karaoke"])
 with tab1:
     st.markdown("""
     <div style="background-color: #F9F9F9; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-        <h3 style="color: #E74C3C; text-align: center;">RAP para AFORE PENSIONISSSTE</h3>
+        <h3 style="color: #E74C3C; text-align: center;">Las 10 AFORE - RAP del Retiro</h3>
+        
+        <div class="verse">
+            <h4 style="color: #2980B9;">Intro:</h4>
+            <p>(Yeah, yeah, ajá...)<br>
+            Diez AFORE en el juego, pon atención,<br>
+            elige bien pa' tu jubilación.<br>
+            No es un juego, es inversión,<br>
+            piensa en el viejo que serás, campeón.</p>
+        </div>
         
         <div class="verse">
             <h4 style="color: #2980B9;">Verso 1:</h4>
-            <p>Afore PensionISSSTE, ¡es hora de empezar!<br>
-            Pensando en tu futuro, con un plan de verdad.<br>
-            Ahorra con nosotros, que aquí vas a brillar,<br>
-            Tu pensión es segura, la vas a disfrutar.</p>
-            
-            <p>Cuidamos tu dinero, con amor y rigor,<br>
-            Generando rendimientos, con todo el valor.<br>
-            Invertimos en grande, no hay error,<br>
-            Con Afore PensionISSSTE, no hay temor.</p>
+            <p>AFORE Azteca llega y te reta,<br>
+            Citibanamex con la cuenta completa.<br>
+            Coppel te dice "ven, te conviene",<br>
+            Inbursa calcula lo que te mantiene.<br>
+            Invercap suma, rendimiento a la luna,<br>
+            PENSIONISSSTE firme, nunca se esfuma.<br>
+            Principal te enseña a ahorrar,<br>
+            Profuturo pa'l retiro y descansar.</p>
         </div>
         
         <div class="chorus">
             <h4 style="color: #16A085;">Coro:</h4>
-            <p>Afore PENSIONISSSTE, tu futuro en acción,<br>
-            Ahorra con nosotros, que tenemos la solución.<br>
-            Rendimiento constante, no hay confusión,<br>
-            ¡Haz crecer tu pensión, con esta misión!</p>
+            <p>(Ey, ey, cuál vas a escoger? 🎤)<br>
+            Sura y XX-Banorte también hay que ver.<br>
+            (Ey, ey, tu dinero a crecer)<br>
+            Pa' que cuando envejezcas la pases de 10.</p>
         </div>
         
         <div class="verse">
             <h4 style="color: #2980B9;">Verso 2:</h4>
-            <p>El servicio es claro, directo y fiel,<br>
-            Te damos opciones, con un trato bien.<br>
-            Desde el principio, te cuidamos bien,<br>
-            La pensión que soñaste, la verás también.</p>
-            
-            <p>Si te unes a nosotros, no te vas a arrepentir,<br>
-            Tu futuro asegurado, sin tener que sufrir.<br>
-            Con Afore PensionISSSTE, todo es fácil de entender,<br>
-            Aquí tu dinero crece, ¡no hay por qué temer!</p>
+            <p>No te duermas, no lo dejes al azar,<br>
+            checa la tasa antes de firmar.<br>
+            Si la comisión te come la pensión,<br>
+            cuando te jubiles dirás "qué error".<br>
+            Mueve tu cuenta, revisa el trato,<br>
+            piensa en el sueldo del viejito en el banco.<br>
+            Ahorra temprano, retírate sano,<br>
+            no dejes que el tiempo te gane la mano.</p>
+        </div>
+        
+        <div class="verse">
+            <h4 style="color: #2980B9;">Puente:</h4>
+            <p>(Yeah, yeah, suéltalo DJ! 🎶🔥)<br>
+            Si no comparas, luego llorarás,<br>
+            el retiro es serio, no improvisarás.</p>
         </div>
         
         <div class="chorus">
             <h4 style="color: #16A085;">Coro (Repetición):</h4>
-            <p>Afore PENSIONISSSTE, tu futuro en acción,<br>
-            Ahorra con nosotros, que tenemos la solución.<br>
-            Rendimiento constante, no hay confusión,<br>
-            ¡Haz crecer tu pensión, con esta misión!</p>
+            <p>(Ey, ey, cuál vas a escoger? 🎤)<br>
+            Sura y XX-Banorte también hay que ver.<br>
+            (Ey, ey, tu dinero a crecer)<br>
+            Pa' que cuando envejezcas la pases de 10.</p>
+        </div>
+        
+        <div class="verse">
+            <h4 style="color: #2980B9;">Outro:</h4>
+            <p>(Yeah, yeah... ¡AFORE, AFORE, toma el control!)<br>
+            Hazlo ahora, no dejes el goal.<br>
+            Que el futuro no espera,<br>
+            y en la vejez... ¡no hay replay! 🎤🔥</p>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -215,20 +234,25 @@ with tab2:
     
     # Simulador de karaoke con colores que cambian
     lyrics = [
-        ("Afore PensionISSSTE, ¡es hora de empezar!", "#3498DB", "verse"),
-        ("Pensando en tu futuro, con un plan de verdad.", "#3498DB", "verse"),
-        ("Ahorra con nosotros, que aquí vas a brillar,", "#3498DB", "verse"),
-        ("Tu pensión es segura, la vas a disfrutar.", "#3498DB", "verse"),
+        ("(Yeah, yeah, ajá...)", "#9B59B6", "verse"),
+        ("Diez AFORE en el juego, pon atención,", "#9B59B6", "verse"),
+        ("elige bien pa' tu jubilación.", "#9B59B6", "verse"),
+        ("No es un juego, es inversión,", "#9B59B6", "verse"),
+        ("piensa en el viejo que serás, campeón.", "#9B59B6", "verse"),
         ("", "", ""),
-        ("Cuidamos tu dinero, con amor y rigor,", "#3498DB", "verse"),
-        ("Generando rendimientos, con todo el valor.", "#3498DB", "verse"),
-        ("Invertimos en grande, no hay error,", "#3498DB", "verse"),
-        ("Con Afore PensionISSSTE, no hay temor.", "#3498DB", "verse"),
+        ("AFORE Azteca llega y te reta,", "#3498DB", "verse"),
+        ("Citibanamex con la cuenta completa.", "#3498DB", "verse"),
+        ("Coppel te dice 'ven, te conviene',", "#3498DB", "verse"),
+        ("Inbursa calcula lo que te mantiene.", "#3498DB", "verse"),
+        ("Invercap suma, rendimiento a la luna,", "#3498DB", "verse"),
+        ("PENSIONISSSTE firme, nunca se esfuma.", "#3498DB", "verse"),
+        ("Principal te enseña a ahorrar,", "#3498DB", "verse"),
+        ("Profuturo pa'l retiro y descansar.", "#3498DB", "verse"),
         ("", "", ""),
-        ("Afore PENSIONISSSTE, tu futuro en acción,", "#16A085", "chorus"),
-        ("Ahorra con nosotros, que tenemos la solución.", "#16A085", "chorus"),
-        ("Rendimiento constante, no hay confusión,", "#16A085", "chorus"),
-        ("¡Haz crecer tu pensión, con esta misión!", "#16A085", "chorus"),
+        ("(Ey, ey, cuál vas a escoger? 🎤)", "#16A085", "chorus"),
+        ("Sura y XX-Banorte también hay que ver.", "#16A085", "chorus"),
+        ("(Ey, ey, tu dinero a crecer)", "#16A085", "chorus"),
+        ("Pa' que cuando envejezcas la pases de 10.", "#16A085", "chorus"),
     ]
     
     for line, color, line_type in lyrics:
@@ -242,20 +266,20 @@ with tab2:
 
 # Sección de información adicional
 st.markdown("---")
-expander = st.expander("ℹ️ Más información sobre AFORE PENSIONISSSTE")
+expander = st.expander("ℹ️ Información sobre las AFORE en México")
 with expander:
     st.markdown("""
     <div style="background-color: #F0F2F6; padding: 20px; border-radius: 10px;">
-        <h3 style="color: #2980B9;">AFORE PENSIONISSSTE</h3>
-        <p>Es una Administradora de Fondos para el Retiro que ofrece:</p>
+        <h3 style="color: #2980B9;">¿Qué es una AFORE?</h3>
+        <p>Las AFORE (Administradoras de Fondos para el Retiro) son instituciones financieras que:</p>
         <ul>
-            <li>📈 Rendimientos competitivos</li>
-            <li>🔒 Seguridad en tus inversiones</li>
-            <li>👤 Atención personalizada</li>
-            <li>💼 Diversas opciones de ahorro</li>
+            <li>📈 Administran tus ahorros para el retiro</li>
+            <li>🔒 Ofrecen seguridad y rendimientos</li>
+            <li>👤 Permiten comparar comisiones y rendimientos</li>
+            <li>💼 Te ayudan a planear tu futuro financiero</li>
         </ul>
-        <p>¡Comienza a planear tu retiro hoy mismo con el ritmo del RAP PENSIONISSSTE!</p>
-        <img class="info-img" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/retirement-1976610_640.jpg" alt="Jubilación feliz">
+        <p>¡Compara y elige la mejor AFORE para tu retiro con el ritmo del RAP!</p>
+        <img class="info-img" src="https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557399_640.jpg" alt="Personas planeando su retiro">
     </div>
     """, unsafe_allow_html=True)
 
